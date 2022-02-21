@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Space Mono", monospace;
+    background-color: hsl(185, 41%, 84%);
+}
+
+header {
+    color: hsl(183, 100%, 15%);
+}
+
+main {
+    display: flex;
+    width: 1440px;
+    height: 800px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(186, 14%, 43%);
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.section-left {
+    width: 50%;
+}
+
+.section-right {
+    background-color: hsl(183, 100%, 15%);
+    padding: 30px;
+    border-radius: 15px;
+    width: 50%;
+}
+
+/* Pre-defined styles */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

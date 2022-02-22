@@ -28,13 +28,18 @@
                 <h2>Bill</h2>
                 <input type="number" name="bill" id="bill" placeholder="0" />
                 <h2>Select Tip %</h2>
-                <div class="tip-selection">
-                    <button class="tip-button">5 %</button>
-                    <button class="tip-button">10 %</button>
-                    <button class="tip-button">15 %</button>
-                    <button class="tip-button">25 %</button>
-                    <button class="tip-button">50 %</button>
-                    <button class="tip-button">Custom</button>
+                <div class="tip-select">
+                    <button class="btn-tip-selection">5 %</button>
+                    <button class="btn-tip-selection">10 %</button>
+                    <button class="btn-tip-selection">15 %</button>
+                    <button class="btn-tip-selection">25 %</button>
+                    <button class="btn-tip-selection">50 %</button>
+                    <input
+                        type="number"
+                        name="custom-tip"
+                        id="custom-tip"
+                        placeholder="Custom"
+                    />
                 </div>
                 <h2>Number of People</h2>
                 <input
@@ -45,9 +50,19 @@
                 />
             </section>
             <section class="section-right">
-                <h2>Tip Amount / person</h2>
-                <h2>Total / person</h2>
-                <button>Reset</button>
+                <div class="results">
+                    <div>
+                        <h2>Tip Amount</h2>
+                        / person
+                        <h2>Total</h2>
+                        / person
+                    </div>
+                    <div>
+                        <h2>$0.00</h2>
+                        <h2>$0.00</h2>
+                    </div>
+                </div>
+                <button id="btn-reset">Reset</button>
             </section>
         </main>
         <footer class="attribution">
